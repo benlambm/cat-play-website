@@ -1,0 +1,127 @@
+body {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD1DC;
+    /* Light Pink */
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #FFA07A;
+    /* Light Salmon */
+    padding: 20px;
+    border-bottom: 5px dashed #FF69B4;
+    /* Hot Pink */
+}
+
+header h1 {
+    margin: 0;
+    color: #FFF0F5;
+    /* Lavender Blush */
+    text-shadow: 2px 2px #FF69B4;
+    /* Hot Pink */
+    font-size: 3em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #FFFACD;
+    /* Lemon Chiffon */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid #FFB6C1;
+    /* Light Pink */
+    max-width: 600px;
+}
+
+h2 {
+    color: #FF6347;
+    /* Tomato */
+    font-size: 2em;
+}
+
+button {
+    background-color: #ADFF2F;
+    /* Green Yellow */
+    color: #333;
+    border: 2px solid #32CD32;
+    /* Lime Green */
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #7FFF00;
+    /* Chartreuse */
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#cat-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #87CEFA;
+    /* Light Sky Blue */
+    margin-top: 10px;
+}
+
+#interactive-cat-section {
+    background-color: #E0FFFF;
+    /* Light Cyan */
+}
+
+.cat-avatar {
+    font-size: 5em;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    /* bouncy effect */
+    user-select: none;
+    /* Prevent text selection */
+}
+
+.cat-avatar:hover {
+    transform: rotate(15deg) scale(1.2);
+}
+
+.cat-avatar.clicked {
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+footer {
+    background-color: #FFA07A;
+    /* Light Salmon */
+    padding: 15px;
+    border-top: 5px dashed #FF69B4;
+    /* Hot Pink */
+    margin-top: 30px;
+    color: #FFF0F5;
+    /* Lavender Blush */
+}
