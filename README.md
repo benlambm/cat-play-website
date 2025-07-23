@@ -1,20 +1,33 @@
-# Playful Cat Website 🐾
+# Calico Cat Zone 🧡�🤍
 
-A simple, colorful, and playful cat-themed website that displays random cat facts and images.
+A beautifully redesigned cat-themed website featuring calico colors and tabby-inspired decorative effects! Discover random cat facts, view adorable cat images, and play with interactive elements.
 
-**Live Site:** [Visit the Purrfect Page!](https://benlambm.github.io/cat-play-website/)
+**Live Site:** [Visit the Calico Cat Zone!](https://benlambm.github.io/cat-play-website/)
+
+## ✨ New Design Features
+
+- **Calico Color Palette**: Warm oranges, deep blacks, and cream whites
+- **Tabby Stripe Effects**: Subtle diagonal pattern overlays
+- **Paw Navigation**: Sleek slide-out menu with paw button (🐾)
+- **Enhanced Footer**: Professional navigation and copyright information
+- **Responsive Design**: Beautiful on all devices
 
 ## Features 🌟
 
 - Fetches and displays random cat facts from the [Cat Fact Ninja API](https://catfact.ninja/). (Prepare for wisdom! 🧐)
-- Fetches and displays random cat images from [Cataas](https://cataas.com/). (Cuteness overload! 😻)
-- Interactive cat element that responds to clicks. (Boop the snoot! 👉👃)
+- Fetches and displays random cat images from [Cataas](https://cataas.com/) with calico-themed colors. (Cuteness overload! 😻)
+- Interactive cat element that responds to clicks with calico-themed messages. (Boop the snoot! 👉👃)
+- Navigation menu with About, Our Team, and Contact pages (🐾 menu button)
 
 ## Our Meow-tiful History 📜
 
-Once upon a time, in the vast digital kingdom (around May 11, 2025, to be precise 🗓️), a hooman had a vision: a website dedicated to the glory of felines! With the help of a trusty AI assistant (that's me! 🤖), this colorful and playful sanctuary for cat lovers was conjured into existence. 
+Once upon a time, in the vast digital kingdom (around May 11, 2025, to be precise 🗓️), a hooman had a vision: a website dedicated to the glory of felines! With the help of a trusty AI assistant (that's me! 🤖), this colorful and playful sanctuary for cat lovers was conjured into existence.
 
-It started as a humble collection of HTML, CSS, and JavaScript, but quickly blossomed into a purr-fectly interactive experience. The mission? To spread joy, one cat fact and one adorable cat picture at a time. And maybe, just maybe, to remind everyone that cats are the true rulers of the internet. 👑🐈
+**July 2025 Update**: The site received a stunning makeover inspired by calico cats! The new design features:
+- Warm calico color scheme (orange, black, white, cream)
+- Elegant tabby stripe pattern effects
+- Professional navigation with a playful paw button
+- Enhanced user experience with smooth animations
 
 This site was built with lots of virtual head scratches and a sprinkle of digital catnip. We hope it brings a smile to your face! 😄
 
