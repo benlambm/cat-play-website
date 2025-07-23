@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const catImageElement = document.getElementById('cat-image');
     const newImageBtn = document.getElementById('new-image-btn');
     const interactiveCat = document.getElementById('interactive-cat');
-    
+
     // Navigation elements
     const pawMenuBtn = document.getElementById('paw-menu-btn');
     const navMenu = document.getElementById('nav-menu');
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Navigation Menu Functionality
     function toggleMenu() {
         const isOpen = navMenu.classList.contains('open');
-        
+
         if (isOpen) {
             closeMenu();
         } else {
@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             closeMenu();
-            
+
             // Scroll to top for navigation (since we don't have actual pages)
             window.scrollTo({ top: 0, behavior: 'smooth' });
-            
+
             // You could add page routing logic here
             const page = link.getAttribute('href').substring(1);
             console.log(`Navigating to: ${page}`);
